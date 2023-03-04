@@ -51,8 +51,8 @@ fun com.android.build.gradle.BaseExtension.baseConfig() {
     }
 
     compileOptions.apply {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     buildFeatures.apply {
@@ -61,7 +61,7 @@ fun com.android.build.gradle.BaseExtension.baseConfig() {
 
     tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
         kotlinOptions {
-            jvmTarget = "11"
+            jvmTarget = "17"
         }
     }
 }

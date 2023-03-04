@@ -17,7 +17,12 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
 
+    implementation(libs.bundles.navigation)
+
     implementation(project(":domain"))
+    implementation(project(":features:popular"))
+    implementation(project(":features:search"))
+    implementation(project(":features:profile"))
 
     testImplementation(libs.tests.junit)
     androidTestImplementation(libs.bundles.uiTests)
