@@ -2,12 +2,12 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
+    android:id="@+id/main_navigation"
     app:startDestination="@+id/navigation_popular">
 
     <fragment
         android:id="@+id/navigation_popular"
-        android:name="free.ssharyk.themoviedatabaseclient.features.search.ui.SearchFragment"
+        android:name="free.ssharyk.themoviedatabaseclient.features.popular.ui.PopularFragment"
         android:label="@string/screen_title_popular"
         tools:layout="@layout/fragment_popular" />
 

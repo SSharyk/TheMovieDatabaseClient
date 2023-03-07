@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="popular_not_found">Пока нет известных</string>
+    <string name="popular_loading_error">Загрузка…</string>
+</resources>

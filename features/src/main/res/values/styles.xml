@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MoviesText" />
+
+    <style name="MoviesText.Placeholder">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textSize">30sp</item>
+        <item name="fontWeight">900</item>
+    </style>
+</resources>

@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    kotlin("kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -11,6 +13,10 @@ android {
     }
 }
 
+kapt {
+    correctErrorTypes = true
+}
+
 dependencies {
 
     implementation(libs.core)
@@ -18,6 +24,9 @@ dependencies {
     implementation(libs.material)
 
     implementation(libs.bundles.navigation)
+
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.kapt)
 
     implementation(project(":domain"))
     implementation(project(":features:popular"))

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MoviesText.Title">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMaxTextSize">24sp</item>
+        <item name="autoSizeMinTextSize">14sp</item>
+        <item name="fontWeight">400</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
